@@ -115,7 +115,7 @@ Menu Manager library for manage the menu &amp; items with support click event.
        
        Menu_PageInit(pageList, &mainMenu);  mainMenu is root page of this example
 
-2.1  Using menu operation functions, for example:  
+3.1  Using menu operation functions, for example:  
 
        void MyBackKey(void)
        {
