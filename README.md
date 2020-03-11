@@ -116,29 +116,30 @@ Menu Manager library for manage the menu &amp; items with support click event.
        Menu_PageInit(pageList, &mainMenu);  mainMenu is root page of this example
 
 3.1  Using menu operation functions, for example:  
-
-       void MyBackKey(void)
-       {
-          Menu_BackToPreviousPage();
-       }
+```c++
+   void MyBackKey(void)
+   {
+      Menu_BackToPreviousPage();
+   }
        
-       void MyUpKey(void)
-       {
-          Menu_SelectPreviousItem_CurrentPage();
-          Menu_ShowCurrentPage(); /* Or using Menu_ShowPage(&page_name) */
-       }
+   void MyUpKey(void)
+   {
+      Menu_SelectPreviousItem_CurrentPage();
+      Menu_ShowCurrentPage(); /* Or using Menu_ShowPage(&page_name) */
+   }
        
-       void MyEnterKey(void)
-       {
-          Menu_RunClickEvent();
-          Menu_OpenSelectedPage();
-       }
+   void MyEnterKey(void)
+   {
+      Menu_RunClickEvent();
+      Menu_OpenSelectedPage();
+   }
        
-       void MyDownKey(void)
-       {
-          Menu_SelectNextItem_CurrentPage(); /* Or using Menu_SelectNextItem(&page_name) */
-          Menu_ShowCurrentPage(); /* Or using Menu_ShowPage(&page_name) */
-       }
+   void MyDownKey(void)
+   {
+      Menu_SelectNextItem_CurrentPage(); /* Or using Menu_SelectNextItem(&page_name) */
+      Menu_ShowCurrentPage(); /* Or using Menu_ShowPage(&page_name) */
+   }
        
+```
 
 #### Developer: Majid Derhambakhsh
