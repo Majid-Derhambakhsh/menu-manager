@@ -1,3 +1,5 @@
+![Banner](Menu-Manager.png)
+
 # menu-manager
 Menu Manager library for manage the menu &amp; items with support click event.
 
@@ -40,15 +42,15 @@ Menu Manager library for manage the menu &amp; items with support click event.
 
 ### The Menu Manager library can be used as follows:
 1.1  Set Menu (number of pages - current selected character and required libraries) in the menu_manager_conf.h header, for example:  
-
-       /* ~~~~~~ Pages configuration ~~~~~~ */
-       #define _NUMBER_OF_PAGES 3
-       
-       #define _CURRENT_SELECTED_CHAR '>'
-     
-       /* ~~~~~~ Required Libraries ~~~~~~~ */ 
-       #include "CHARACTER_LCD/character_lcd.h"
-       
+```c++
+   /* ~~~~~~ Pages configuration ~~~~~~ */
+   #define _NUMBER_OF_PAGES 3
+   
+   #define _CURRENT_SELECTED_CHAR '>'
+   
+   /* ~~~~~~ Required Libraries ~~~~~~~ */ 
+   #include "CHARACTER_LCD/character_lcd.h"
+```       
 2.1  Initialize:  
 -  Declare Page_TypeDef menu structures, for example:  
 
