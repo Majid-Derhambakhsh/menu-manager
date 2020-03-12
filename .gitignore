@@ -2,7 +2,7 @@
 *.d
 
 .*
-!.gitignore
+!Menu-Manager.png
 
 # Object files
 *.o
