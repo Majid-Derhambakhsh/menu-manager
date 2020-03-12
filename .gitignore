@@ -2,7 +2,7 @@
 *.d
 
 .*
-!Menu-Manager.png
+*Menu-Manager.png
 
 # Object files
 *.o
