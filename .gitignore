@@ -2,7 +2,7 @@
 *.d
 
 .*
-!/.gitignore
+!.gitignore
 
 # Object files
 *.o
