@@ -175,10 +175,10 @@ void Menu_RunClickEvent(void);
           ...
           ...
       ``` 
-      * Tips
-       Tip 1: Each ID is for a page (Page_TypeDef)
-       Tip 2: If the ID is the same as the parent ID, it will not enter the new page
-       Tip 3: If you do not need to execute your commands in the items click, set the event value to NullClickEvent
+      * Tips   
+       Tip 1: Each ID is for a page (Page_TypeDef)   
+       Tip 2: If the ID is the same as the parent ID, it will not enter the new page   
+       Tip 3: If you do not need to execute your commands in the items click, set the event value to NullClickEvent   
 
 -  Declare click event functions, for example:
       ```c++
