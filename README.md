@@ -8,7 +8,9 @@ Menu Manager library for manage the menu &amp; items with support click event.
 
 - #### Type : Embedded Software.
 
-- #### Support : AVR/ARM STM32 series with character_lcd library.
+- #### Support :  
+               - All MCU with your custom library  
+               - AVR/ARM STM32 series with character_lcd/7Segment library   
 
 - #### Program Language : C/C++
 
