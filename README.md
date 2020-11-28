@@ -1,4 +1,4 @@
-![Banner](Menu-Manager-2.png)
+![Banner](MenuManager.png)
 
 # menu-manager
 Menu Manager library for manage the menu &amp; items with support click event.
